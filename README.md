@@ -37,3 +37,14 @@ npm start
 ## Disclaimer
 
 Use at your own risk; not a supported MongoDB product
+
+## Switching between local and Atlas Mongodb
+
+Change server pointer in config.env according to whishes.
+
+```
+SERVER_ATLAS_URI=mongodb+srv://USERHERE:PASSWORDHERE@cluster0.9h8eu8q.mongodb.net/?retryWrites=true&w=majority
+LOCAL_ATLAS_URI=mongodb://root:example@172.28.132.7:27017/?retryWrites=true&w=majority
+
+ATLAS_URI=mongodb://root:example@localhost:27017/?retryWrites=true&w=majority
+```
