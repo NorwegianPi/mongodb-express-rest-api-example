@@ -20,6 +20,13 @@ npm install -g nodemon
 nodemon server
 ```
 
+This also seems to work.
+```
+cd server
+npm start
+```
+
+
 3. Start the React app:
 ```
 cd app/listings/
