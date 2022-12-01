@@ -48,3 +48,9 @@ LOCAL_ATLAS_URI=mongodb://root:example@172.28.132.7:27017/?retryWrites=true&w=ma
 
 ATLAS_URI=mongodb://root:example@localhost:27017/?retryWrites=true&w=majority
 ```
+
+## Usefull tips
+
+Mongo Express: http://localhost:8081/db/sample_airbnb/matches
+Mongo Atlass: https://cloud.mongodb.com/v2/63846f871f157d0c0cc5f5ec#clusters
+
